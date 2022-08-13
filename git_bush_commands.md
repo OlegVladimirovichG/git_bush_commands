@@ -29,3 +29,23 @@
     git init - создание пустого репозитория
     git status - текущее сосотояние репозитория
 
+## создание коммита 
+    cd repo
+    touch readme.md
+    git status
+    git add readme.md
+    git commit -am 'message'
+
+## созданние .gitkeep
+    mkdir images
+    touch images/.gitkeep
+    git add images
+    git commit -m 'created images diretory'
+
+## создание .gitignore
+    touch .gitignore
+    git add .gitignore
+    echo "config" > .gitignore
+    cat .gitignore
+    git commit -am 'ignore set up'
+    touch config 
