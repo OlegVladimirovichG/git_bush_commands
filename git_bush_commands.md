@@ -7,16 +7,16 @@
 
 
 ## команды терминала
-ls - list - показать список файлов
-cd - change directory - (cd download) переход в другую дерикторию
-cd .. - перейти в папку на уровень выше
-cd ../.. - перейти в папку на два уровня выше
-mkdir - make directory - (mkdir testDir) - создать новую дерикторию
-touch - (touch test.txt) - создание файл
-cp - copy - (cp test.txt text_copy.txt) - копирование файла
-mv - move - (mv text.txt text_original.txt) - переиминование файла
-echo - (echo "Hello") - вывод строки в терминал
-echo "Hello" > test_original.txt - записание строки в файл
-cat test_original.txt - открыть файл в терминале
-rm - remove - (rm test_original.txt) - удаление файла
-rm -R testDir - рекурсивное удаление
+    ls - list - показать список файлов
+    cd - change directory - (cd download) переход в другую дерикторию
+    cd .. - перейти в папку на уровень выше
+    cd ../.. - перейти в папку на два уровня выше
+    mkdir - make directory - (mkdir testDir) - создать новую дерикторию
+    touch - (touch test.txt) - создание файл
+    cp - copy - (cp test.txt text_copy.txt) - копирование файла
+    mv - move - (mv text.txt text_original.txt) - переиминование файла
+    echo - (echo "Hello") - вывод строки в терминал
+    echo "Hello" > test_original.txt - записание строки в файл
+    cat test_original.txt - открыть файл в терминале
+    rm - remove - (rm test_original.txt) - удаление файла
+    rm -R testDir - рекурсивное удаление
